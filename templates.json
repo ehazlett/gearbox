@@ -78,6 +78,15 @@
     ]
   },
   {
+    "name": "dokuwiki",
+    "description": "Example install of Dokuwiki",
+    "version": "0.1",
+    "author": "vimishor",
+    "repo": "https://github.com/openshift/dokuwiki-quickstart",
+    "type": "php-5.3",
+    "cartridges": []
+  },
+  {
     "name": "joomla",
     "description": "Example install of Joomla",
     "version": "0.1",
