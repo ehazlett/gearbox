@@ -9,6 +9,15 @@
     "cartridges": []
   },
   {
+    "name": "flask",
+    "description": "Default install of Flask",
+    "version": "0.1",
+    "author": "openshift",
+    "repo": "https://github.com/openshift/flask-example",
+    "type": "python-2.6",
+    "cartridges": []
+  },
+  {
     "name": "reviewboard",
     "description": "Example install of Reviewboard",
     "version": "0.1",
