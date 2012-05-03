@@ -49,10 +49,19 @@
     "cartridges": []
   },
   {
+    "name": "gollum",
+    "description": "Example install of Gollum",
+    "version": "0.1",
+    "author": "hferentschik",
+    "repo": "https://github.com/openshift/gollum-openshifted",
+    "type": "ruby-1.8",
+    "cartridges": []
+  },
+  {
     "name": "nodejs",
     "description": "Example install of Node.js",
     "version": "0.1",
-    "author": "openshift",
+    "author": "gshipley",
     "repo": "https://github.com/openshift/nodejs-example",
     "type": "nodejs-0.6",
     "cartridges": []
@@ -61,11 +70,22 @@
     "name": "etherpad",
     "description": "Example install of Etherpad",
     "version": "0.1",
-    "author": "openshift",
+    "author": "wshearn",
     "repo": "https://github.com/openshift/etherpad-example",
     "type": "nodejs-0.6",
     "cartridges": [
       "mongodb-2.0"
+    ]
+  },
+  {
+    "name": "joomla",
+    "description": "Example install of Joomla",
+    "version": "0.1",
+    "author": "openshift",
+    "repo": "https://github.com/openshift/joomla-example",
+    "type": "php-5.3",
+    "cartridges": [
+      "mysql-5.1"
     ]
   },
   {
