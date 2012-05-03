@@ -49,6 +49,15 @@
     "cartridges": []
   },
   {
+    "name": "nodejs",
+    "description": "Example install of Node.js",
+    "version": "0.1",
+    "author": "openshift",
+    "repo": "https://github.com/openshift/nodejs-example",
+    "type": "nodejs-0.6",
+    "cartridges": []
+  },
+  {
     "name": "sugarcrm",
     "description": "Example install of SugarCRM",
     "version": "0.1",
