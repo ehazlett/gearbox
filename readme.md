@@ -39,7 +39,7 @@ For example:
 
 `gb -n mydjango -t django`
 
-This will create a new OpenShift application named `mydjango`, create any OpenShift cartridges needed by the app, clone set the upstream repo to the sample, pull in the changes, and finally push and deploy the app to OpenShift.
+This will create a new OpenShift application named `mydjango`, create any OpenShift cartridges needed by the app, set the upstream repo to the sample, pull in the changes, and finally push and deploy the app to OpenShift.
 
 
 Thanks
