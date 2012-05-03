@@ -19,15 +19,23 @@ To list available application templates run:
 Name                      Author               Type            Description
 -----------------------------------------------------------------------------
 django                    openshift            python-2.6      Default latest stable version of Django
+flask                     openshift            python-2.6      Default install of Flask
+reviewboard               openshift            python-2.6      Example install of Reviewboard
+sinatra                   openshift            ruby-1.8        Example install of Sinatra
+nodejs                    openshift            nodejs-0.6      Example install of Node.js
+etherpad                  openshift            nodejs-0.6      Example install of Etherpad
 drupal                    openshift            php-5.3         Example install of Drupal
-sugarcrm                  openshift            php-5.3         Example install of SugarCRM
-.......
+...
 
 ```
 
 Create Application
 -------------------
 To create an application:
+
+`gb -n <your_app_name> -t <template_name>`
+
+For example:
 
 `gb -n mydjango -t django`
 

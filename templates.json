@@ -58,6 +58,17 @@
     "cartridges": []
   },
   {
+    "name": "etherpad",
+    "description": "Example install of Etherpad",
+    "version": "0.1",
+    "author": "openshift",
+    "repo": "https://github.com/openshift/etherpad-example",
+    "type": "nodejs-0.6",
+    "cartridges": [
+      "mongodb-2.0"
+    ]
+  },
+  {
     "name": "sugarcrm",
     "description": "Example install of SugarCRM",
     "version": "0.1",
