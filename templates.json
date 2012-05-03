@@ -78,6 +78,17 @@
     ]
   },
   {
+    "name": "codeigniter",
+    "description": "Example install of CodeIgniter",
+    "version": "0.1",
+    "author": "gshipley",
+    "repo": "https://github.com/openshift/CodeIgniterQuickStart",
+    "type": "php-5.3",
+    "cartridges": [
+      "mysql-5.1"
+    ]
+  },
+  {
     "name": "dokuwiki",
     "description": "Example install of Dokuwiki",
     "version": "0.1",
@@ -85,6 +96,17 @@
     "repo": "https://github.com/openshift/dokuwiki-quickstart",
     "type": "php-5.3",
     "cartridges": []
+  },
+  {
+    "name": "drupal",
+    "description": "Example install of Drupal",
+    "version": "0.1",
+    "author": "openshift",
+    "repo": "https://github.com/openshift/drupal-example",
+    "type": "php-5.3",
+    "cartridges": [
+      "mysql-5.1"
+    ]
   },
   {
     "name": "joomla",
@@ -103,17 +125,6 @@
     "version": "0.1",
     "author": "openshift",
     "repo": "https://github.com/openshift/sugarcrm-example",
-    "type": "php-5.3",
-    "cartridges": [
-      "mysql-5.1"
-    ]
-  },
-  {
-    "name": "drupal",
-    "description": "Example install of Drupal",
-    "version": "0.1",
-    "author": "openshift",
-    "repo": "https://github.com/openshift/drupal-example",
     "type": "php-5.3",
     "cartridges": [
       "mysql-5.1"
