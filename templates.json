@@ -1,0 +1,55 @@
+[
+  {
+    "name": "django",
+    "description": "Default latest stable version of Django",
+    "version": "0.1",
+    "author": "openshift",
+    "repo": "https://github.com/openshift/django-example",
+    "type": "python-2.6",
+    "cartridges": []
+  },
+  {
+    "name": "reviewboard",
+    "description": "Example install of Reviewboard",
+    "version": "0.1",
+    "author": "openshift",
+    "repo": "https://github.com/openshift/reviewboard-example",
+    "type": "python-2.6",
+    "cartridges": [
+      "mysql-5.1"
+    ]
+  },
+  {
+    "name": "myshoppinglist",
+    "description": "Example install of myshoppinglist",
+    "version": "0.1",
+    "author": "openshift",
+    "repo": "https://github.com/openshift/openshift-myshoppinglist",
+    "type": "python-2.6",
+    "cartridges": [
+      "mongodb-2.0"
+    ]
+  },
+  {
+    "name": "sugarcrm",
+    "description": "Example install of SugarCRM",
+    "version": "0.1",
+    "author": "openshift",
+    "repo": "https://github.com/openshift/sugarcrm-example",
+    "type": "php-5.3",
+    "cartridges": [
+      "mysql-5.1"
+    ]
+  },
+  {
+    "name": "drupal",
+    "description": "Example install of Drupal",
+    "version": "0.1",
+    "author": "openshift",
+    "repo": "https://github.com/openshift/drupal-example",
+    "type": "php-5.3",
+    "cartridges": [
+      "mysql-5.1"
+    ]
+  }
+]
