@@ -4,7 +4,7 @@ Gearbox is a tool for bootstrapping [OpenShift](http://openshift.redhat.com) pre
 
 Installation
 =============
-Gearbox is written in Python.  Run `pip install gearbox`.
+Gearbox is written in Python.  Run `pip install https://github.com/ehazlett/gearbox/archive/master.zip`.
 
 Usage
 ======
